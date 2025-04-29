@@ -159,10 +159,12 @@ python aws_incident_response.py i-1234567890abcdef0 us-west-2
 ## Dependencies
 
 ```bash
-# Install required packages
-pip install yara-python boto3
-brew install yara         # macOS
-sudo apt install yara     # Linux
+# Install Python requirements
+pip install -r requirements.txt
+
+# System packages
+brew install yara    # macOS
+sudo apt install yara libyara-dev  # Linux
 ```
 
 ## Getting Started
